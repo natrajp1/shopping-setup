@@ -68,7 +68,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: admin123
 
   jenkins:
-    image: jenkinsci/blueocean
+    image: jenkins/jenkins
     ports:
       - 8080:8080
       - 50000:50000
