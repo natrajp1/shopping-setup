@@ -1,4 +1,5 @@
 # This is a sitewide playbook
+- import_playbook: common.yml
 - import_playbook: frontend.yml
 - import_playbook: catalogue.yml
 - import_playbook: carts.yml
